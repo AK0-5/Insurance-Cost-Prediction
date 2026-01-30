@@ -56,8 +56,8 @@ Medical Insurance Dataset containing demographic and health-related information.
 - Lasso Regression (L1 regularization & feature selection)
 
 ## Files
-- `Insurance_Cost_Prediction.ipynb` – Complete project code  
-- `insurance.csv` – Dataset  
+- `Insurance_Cost_Prediction.ipynb`  – Complete project code  
+- `[insurance.csv](https://github.com/AK0-5/Insurance-Cost-Prediction/blob/main/insurance.csv)` – Dataset  
 
 ## Conclusion
 This project demonstrates how regression models can be used to predict insurance costs and understand which types of individuals are more expensive to insure, making it useful for pricing strategies and risk analysis.
