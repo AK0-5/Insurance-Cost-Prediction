@@ -5,11 +5,10 @@ It helps identify which individuals are expected to incur higher or lower insura
 # Insurance Cost Prediction using Regression
 ##  Problem Statement
 Medical insurance companies need to estimate insurance charges accurately based on individual characteristics such as age, BMI, smoking status, and family size.
-This project aims to build regression models that can estimate insurance costs and analyze the factors influencing them.
+This project aims to build regression models that can indetify which factors impact the insurance costs and analyze them.
 
 ## What This Project Does
 
-- Predicts insurance charges (cost amount) for individuals
 - Identifies which type of people require higher insurance cost
 - Analyzes the impact of factors like:
 Age
