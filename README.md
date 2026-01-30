@@ -1,9 +1,26 @@
 # Insurance-Cost-Prediction
-Predicting medical insurance charges using regression techniques
-# Insurance Cost Prediction using Regression
+This project predicts how much medical insurance cost different types of people are likely to require based on their demographic and health-related attributes.
+It helps identify which individuals are expected to incur higher or lower insurance costs using regression models.
 
-## 📌 Project Overview
-This project predicts medical insurance charges based on individual attributes such as age, BMI, smoking status, number of children, gender, and region using regression techniques.
+# Insurance Cost Prediction using Regression
+##  Problem Statement
+Medical insurance companies need to estimate insurance charges accurately based on individual characteristics such as age, BMI, smoking status, and family size.
+This project aims to build regression models that can estimate insurance costs and analyze the factors influencing them.
+
+## What This Project Does
+
+- Predicts insurance charges (cost amount) for individuals
+- Identifies which type of people require higher insurance cost
+- Analyzes the impact of factors like:
+Age
+BMI
+Smoking status
+Number of children
+Gender
+Region
+
+- Compares Linear, Ridge, and Lasso Regression
+- Uses residual analysis to evaluate model behavior
 
 ## Dataset
 Medical Insurance Dataset containing demographic and health-related information.
@@ -26,14 +43,21 @@ Medical Insurance Dataset containing demographic and health-related information.
 7. Residual analysis and visualization  
 8. Model comparison and evaluation  
 
-## Results
-- Smoking, age, and BMI are the most influential factors.
-- Regularized models improve stability.
-- Residual analysis highlights model limitations and improvements.
+## Key Insights
+- Smokers require significantly higher insurance costs
+- Age and BMI strongly influence insurance charges
+- Gender and region have minimal impact
+- Regularization improves model stability
+- Residual analysis reveals model limitations at high-cost ranges
+
+## Models Used
+- Linear Regression
+- Ridge Regression (L2 regularization)
+- Lasso Regression (L1 regularization & feature selection)
 
 ## Files
 - `Insurance_Cost_Prediction.ipynb` – Complete project code  
 - `insurance.csv` – Dataset  
 
-## ✅ Conclusion
-The project demonstrates an end-to-end regression workflow and highlights the importance of residual analysis and regularization in predictive modeling.
+## Conclusion
+This project demonstrates how regression models can be used to predict insurance costs and understand which types of individuals are more expensive to insure, making it useful for pricing strategies and risk analysis.
